@@ -34,7 +34,7 @@
 // wont work
 // for multiple elements we have to loop
 
-const list = document.querySelectorAll('.list-items');
+// const list = document.querySelectorAll('.list-items');
 // for (let i = 0; i < list.length; i++) {
 //     list[i].style.color = 'blue';
 // }
@@ -66,9 +66,9 @@ const list = document.querySelectorAll('.list-items');
 // const title = document.querySelector('#heading');
 // title.style.color = "white";
 
-const ul = document.querySelector('ul');
-const li = document.createElement('li');
-ul.append(li);
+// const ul = document.querySelector('ul');
+// const li = document.createElement('li');
+// ul.append(li);
 
 // li.innerText = 'done';
 
@@ -81,12 +81,46 @@ ul.append(li);
 // console.log(title.getAttribute('id'));
 
 // classList //
-li.innerText = 'kkkkkk';
-li.classList.add('list-items');
+// li.innerText = 'kkkkkk';
+// li.classList.add('list-items');
 // li.classList.remove('list-items');
 
-console.log(li.classList.contains('list-items'));
+// console.log(li.classList.contains('list-items'));
 
-// remove elements // 
+// remove elements //
 
-li.remove();
+// li.remove();
+
+// Navigate the DOM  //
+// Traverse the DOM //
+
+// parent Node Traversal //
+// const ul = document.querySelector('ul');
+// console.log(ul.parentNode.parentNode);
+// console.log(ul.parentElement.parentElement);
+
+// const html = document.querySelector('html');
+// console.log(html.parentElement);
+// console.log(html.parentNode);
+
+
+// event Listeners //
+
+
+// const button = document.querySelector('.btn-danger');
+// function alertBtn() {
+//     alert('hi eventListener')
+// }
+
+// button.addEventListener("click", alertBtn)
+
+
+// mouseOver  //
+
+// let content = document.querySelector('.container');
+
+// function changeBg() {
+//     content.style.backgroundColor = 'yellow';
+// }
+
+// content.addEventListener("mouseover", changeBg)

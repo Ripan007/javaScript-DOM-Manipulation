@@ -2,32 +2,33 @@
 padding: 0;
 box-sizing: border-box;}
 
-body{
-    background-color: rgb(167, 113, 113);
+/* body{
+    background-color: rgb(190, 50, 50);
     
-}
+} */
 
-.container{
+/* .container{
    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 500px;
     margin: 0 auto;
     border: 2px solid white;
-    background:transparent;
+
     color:white;
     border-radius: 3px;
-} 
 
- h1{
+}  */
+
+ /* h1{
     text-align: center;
     padding: 1.2rem;
-}
+} */
 
-li{
+/* li{
     list-style: none;
     text-align: center;
     border: 1px solid white;
     padding: 1.2rem;
-} 
+}  */
 
 
 
