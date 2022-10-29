@@ -123,4 +123,20 @@
 //     content.style.backgroundColor = 'yellow';
 // }
 
-// content.addEventListener("mouseover", changeBg)
+// content.addEventListener("mouseover", changeBg);
+
+// reveal event //
+
+// const revealBtn = document.querySelector('.reveal-btn');
+// const hiddenCont = document.querySelector('.hidden-content');
+
+// function revealContent() {
+//     if (hiddenCont.classList.contains('reveal-btn')) {
+//         hiddenCont.classList.remove('reveal-btn')
+//     } else {
+//         hiddenCont.classList.add('reveal-btn')
+//     }
+// }
+// revealBtn.addEventListener("click", revealContent)
+
+
